@@ -1,0 +1,110 @@
+.flexInHome, .background{
+    background-color: #3A2E7D;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.resultBox{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;}
+.resultBox{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+}
+.divbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.playBtn{
+    width: 25vw;
+    background-color: #08A602;
+    padding: 1rem 0;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.quizBox{
+    padding: 2rem;
+    width: 80%;
+    height: 70%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nextButton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.nextButton button{
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.optionButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    width: 80%;
+    gap: 3rem;
+    height: 35%;
+    margin-top: 4rem;
+}
+.optionButton button{
+    height: 3rem;
+    color: white;
+    background-color:#1895EA ;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 25px;
+}
+h5{
+    margin: 0;
+}
+h1{
+    margin-bottom: 0;
+}
+.next{
+    background-color: #154a6e;
+}
+.previous{
+    background-color: green;
+}
+.quit{
+    background-color: red;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+.result{
+    background-color: rgb(23, 64, 100);
+    padding: 1rem;
+    color: white;
+}
+.optionsOfQuestion{
+    align-self: flex-start;
+}
