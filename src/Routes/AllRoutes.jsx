@@ -76,7 +76,7 @@ const AllRoutes = () => {
       <Route path='/' element={<Home  />} />
       <Route path='/result' element={<Result score={score} value={value} totalQue={arr.length} />} />
       <Route path='/quiz' element={<Quiz handleAnswer={handleScore} value={value} handleChangeAdd={handleChangeAdd} handleChangeSub={handleChangeSub} />} />
-      {/* <Route path='*' element={<Home  />} /> */}
+      <Route path='*' element={<Home  />} />
     </Routes>
   )
 }
